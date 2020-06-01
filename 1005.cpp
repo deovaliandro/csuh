@@ -1,3 +1,4 @@
+// 1005 - Average 1 (with weight value)
 #include <iostream>
 using namespace std;
 
