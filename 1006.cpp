@@ -1,3 +1,4 @@
+// 1006 - Average 2 (3 values)
 #include <iostream>
 using namespace std;
 
