@@ -1,3 +1,4 @@
+// 1004 - Simple Product
 #include <iostream>
 using namespace std;
 
