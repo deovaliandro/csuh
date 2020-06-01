@@ -1,3 +1,4 @@
+// Salary
 #include <iostream>
 using namespace std;
 
