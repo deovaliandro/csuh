@@ -2,13 +2,14 @@
 using namespace std;
 
 int main(){
-    int id, hours;
-    float salary;
+    string name;
+    float salary, total, fsalary;
 
-    cin >> id; cin >> hours; cin >> salary;
+    cin >> name; cin >> salary; cin >> total;
 
-    printf("NUMBER = %d\n", id);
-    printf("SALARY = U$ %0.2f\n", (hours*salary));
+    fsalary = salary + ((total*15)/100);
+
+    printf("TOTAL = R$ %0.2f\n", fsalary);
 
 	return 0;
 }
