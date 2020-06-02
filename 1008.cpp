@@ -6,7 +6,7 @@ int main(){
     int id, hours;
     float salary;
 
-    cin >> id; cin >> hours; cin >> salary;
+    cin >> id >> hours >> salary;
 
     printf("NUMBER = %d\n", id);
     printf("SALARY = U$ %0.2f\n", (hours*salary));
