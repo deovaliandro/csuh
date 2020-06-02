@@ -6,7 +6,7 @@ using namespace std;
 int main(){
     int x;
     float y;
-    cin >> x; cin >> y;
+    cin >> x >> y;
 
     printf("%0.3f km/l", float(x/y));
 
