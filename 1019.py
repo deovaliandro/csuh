@@ -12,4 +12,4 @@ if se >= 60:
 
 second = se
 
-print("%d:%d:%d" % (hour, minute, second))
+print("%d:%d:%d\n" % (hour, minute, second))
