@@ -6,7 +6,7 @@ using namespace std;
 int main(){
     float a, b, c, pi = 3.14159;
 
-    cin >> a; cin >> b; cin >> c;
+    cin >> a >> b >> c;
 
     float i = (a*c)/2;
     float j = pi*pow(c, 2);
