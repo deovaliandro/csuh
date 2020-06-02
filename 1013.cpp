@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
     int a, b, c, temp;
-    cin >> a; cin >> b; cin >> c;
+    cin >> a >> b >> c;
 
     temp = (a+b+abs(a-b))/2;
     temp = (temp+c+abs(temp-c))/2;
