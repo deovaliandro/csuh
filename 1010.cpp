@@ -6,11 +6,10 @@ int main(){
 	int a, b, codeA, codeB;
 	float pa, pb, total;
 
-	cin >> codeA; cin >> a; cin >> pa;
-	cin >> codeB; cin >> b; cin >> pb;
+	cin >> codeA >> a >> pa;
+	cin >> codeB >> b >> pb;
 	
 	total = (a*pa)+(b*pb);
-
 	printf("VALOR A PAGAR: R$ %0.2f\n", total);
 
 	return 0;
