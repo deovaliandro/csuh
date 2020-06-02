@@ -2,4 +2,4 @@
 x = int(input())
 y = float(input())
 
-print("%0.3f km/l" % float(x/y))
+print("%0.3f km/l\n" % float(x/y))
